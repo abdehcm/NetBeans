@@ -4,13 +4,16 @@
  */
 package abdemotor.Interfaz;
 
+import abdemotor.PanelImagen.PanelConImagen;
 import java.awt.Graphics;
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import java.sql.*;
+import javax.swing.JLabel;
 import javax.swing.JScrollPane;
+import javax.swing.SwingConstants;
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
 
@@ -25,6 +28,7 @@ public class PantallaPrincipal extends javax.swing.JFrame {
     public PantallaPrincipal() {
         this.setContentPane(fondo);
         initComponents();
+        
 
     }
 

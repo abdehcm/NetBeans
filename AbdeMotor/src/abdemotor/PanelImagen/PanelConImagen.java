@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package abdemotor.Interfaz;
+package abdemotor.PanelImagen;
 
 import java.awt.Graphics;
 import java.awt.Image;
@@ -22,7 +22,7 @@ public class PanelConImagen extends JPanel {
         imagen = new ImageIcon(getClass().getResource("../img/fondo_login.jpg")).getImage();
         g.drawImage(imagen, 0, 0, getWidth(), getHeight(), this);
         setOpaque(false);
-        
+
         super.paint(g);
     }
 
